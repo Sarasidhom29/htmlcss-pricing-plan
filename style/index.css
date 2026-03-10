@@ -5,9 +5,24 @@
 }
 
 body{
-    max-width: 1200px;
-    margin: 0 auto;
+   
 
+}
+
+@media (min-width: 1024px){
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.container-section{
+    flex: 1 1 calc(33.33% - 1rem);
+    padding: 10px 20px;
+    border: 2px white solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+    height: 70vh;
 }
 
 .plan-types{
